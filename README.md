@@ -14,6 +14,11 @@ The Unet model used basically follows [U-Net: Convolutional Networks for Biomedi
   pip install kaggle
   kaggle competitions download -c data-science-bowl-2018
 ```
+Unzip stage1_train.zip and stage1_test.zip in a folder named 'data'
+### Train the model
+```python
+  python train.py
+```
 
-
-
+### To Do
+The original paper used a weighted cross-entropy scheme, which is not implemented here. It seems to be crucial to performance of the whole system.
